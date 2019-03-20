@@ -26,6 +26,14 @@ Package structure should look as follows:
 
 #### JsonRPC
 
+How to register JsonRPC adaptors
+```golang
+if err = apiServer.RegisterService(&requestForFundsHandlerJsonRpcAdaptor, "RequestForFunds-Handler"); err != nil {
+	log.Fatal("Failed to register RequestForFunds-Handler")
+}
+```
+Take note of the structure for the `name` parameter `"RequestForFunds-Handler"`
+
 [Link](url) and ![Image](src)
 
 ### Support or Contact
