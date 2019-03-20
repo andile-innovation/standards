@@ -8,12 +8,23 @@ Package structure should look as follows:
 
 ```
 /package
-  /recordkeeper
-    recordkeeper.go (interface)
-    /default
-      recordkeeper.go (implementation)
+    doc.go (package documentation)
+    /handler
+        doc.go (package documentation)
+        handler.go (interface)
+        /default
+            handler.go (implementation) 
+    /recordkeeper
+        doc.go (package documentation)
+        recordkeeper.go (interface)
+        /adaptors
+        /exceptions
+            errors.go (custom errors for this package)
+        /mongo
+            recordkeeper.go (implementation)
 ```
 
+#### JsonRPC
 
 [Link](url) and ![Image](src)
 
