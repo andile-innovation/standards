@@ -6,15 +6,16 @@
 #### Structure
 Package structure should look as follows:
 
-/domain
+```
+/package
   /recordkeeper
     recordkeeper.go (interface)
     /default
       recordkeeper.go (implementation)
+```
 
 
 [Link](url) and ![Image](src)
-```
 
 ### Support or Contact
 
