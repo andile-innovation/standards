@@ -1,9 +1,6 @@
-## Our Software Ecosystem
+## Golang 
 
-
-### Golang
-
-#### Structure
+### Structure
 Package structure should look as follows:
 
 ```
@@ -24,7 +21,7 @@ Package structure should look as follows:
             recordkeeper.go (implementation)
 ```
 
-#### JsonRPC
+### JsonRPC
 
 How to register JsonRPC adaptors
 ```golang
